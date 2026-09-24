@@ -1,1 +1,16 @@
-/* Add CSS Styling */
+.odd{
+    background-color: rgb(255,0,0,0.3);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+#no1{
+    color: blue;
+    font-size: 36px;
+}
+.odd.cooler{
+    font-size: 24px;
+}
+#no2{
+    background-color: rgb(0,255,0,0.4);
+    font-size: 24px;
+    font-weight: bold;
+}
