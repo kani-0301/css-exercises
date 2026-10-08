@@ -24,3 +24,59 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+/* my soln*/
+ul{
+  list-style-type: none;
+  padding:0px;
+}
+
+a{
+  text-decoration:none;
+  color:grey;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding:8px;
+  align-content: center;
+}
+
+.header .right-links,.header .left-links{
+  display: flex;
+  justify-content: center;
+  gap:8px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: darkgray;
+  padding:8px;
+}
+.footer .right-links,.footer .left-links{
+  display: flex;
+  justify-content: center;
+  gap:8px;
+}
+
+.content{
+  text-align: center;
+}
+
+.buttons{
+  padding-top: 8px;
+}
+button{
+  font-size: 18px;
+  padding:8px;
+}
